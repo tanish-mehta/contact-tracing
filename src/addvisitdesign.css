@@ -1,0 +1,139 @@
+.mainheading {
+color : black;
+font-size: 40;
+font-family: Arial;
+text-align: center;
+font-weight: bold;
+padding: 60px;
+margin:auto;
+background-color: rgb(173, 185, 202);
+}
+
+#marker{
+  z-index: 2;
+  width:30px;
+  position: absolute;
+}
+
+.sidenav a:hover{
+  background-color: rgb(132,151,176);
+}
+
+#logout{
+  margin-top: 150px;
+}
+
+#active{
+  background-color: rgb(132,151,176);
+}
+.sidenav {
+  margin-top: 165px;
+  margin-left: 8px;
+  width: 165px;
+  background-color: rgb(173, 185, 202);
+  height: 100%;
+  overflow-x: hidden;
+  position: fixed;
+  height: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.sidenav a {
+  height:50px;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 24px;
+  text-align: center;
+  font-family: Arial;
+  color: black;
+}
+
+.container h1{
+  font-weight: normal;
+  text-align: center;
+  font-family: Arial;
+}
+
+input[type="text"] {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20;
+}
+
+::placeholder{
+  color: black;
+}
+
+.topbutton{
+  width: 195px;
+  height: 30px;
+  padding: 5px;
+  margin-bottom:20px;
+  background-color: transparent;
+}
+
+#exetermap{
+  z-index: 1;
+  border: 1px solid black;
+  display: block;
+  float: right;
+}
+
+#addbutton{
+  margin-top: 110px;
+  width: 205px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+#cancelbutton{
+  width: 205px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.bottombutton{
+  position: absolute;
+  bottom: 80px;
+  width: 195px;
+  padding: 5px;
+  margin-bottom:20px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+
+.conincon{
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20;
+  z-index: 2;
+  margin-left: 42px;
+  margin-right: 42px;
+  height: 500px;
+}
+
+.container{
+  z-index: 1;
+  margin-left: 165px;
+  height: 100%;
+}
+
+.container::after{
+  content: "";
+  background: url(watermark.png) no-repeat;
+  background-size: 400px 300px;
+  background-position: center center;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}

@@ -1,0 +1,78 @@
+.mainheading {
+color : black;
+font-size: 40;
+font-family: Arial;
+text-align: center;
+font-weight: bold;
+padding: 60px;
+margin:auto;
+background-color: rgb(173, 185, 202);
+}
+
+::placeholder{
+  color: black;
+}
+
+.container{
+  width:400px;
+  height: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: transparent;
+  border-color: black;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.container::after{
+  content: "";
+  background: url(watermark.png) no-repeat;
+  background-size: 400px 300px;
+  background-position: center center;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+#namebutton{
+  width: 295px;
+  padding: 5px;
+  margin-bottom:20px;
+  background-color: transparent;
+}
+
+#surnamebutton{
+  width: 295px;
+  padding: 5px;
+  margin-bottom:20px;
+  background-color: transparent;
+}
+
+#usernamebutton{
+  width: 295px;
+  padding: 5px;
+  margin-bottom:20px;
+  background-color: transparent;
+}
+
+#passwordbutton{
+  width: 295px;
+  padding: 5px;
+  margin-bottom:20px;
+  background-color: transparent;
+}
+
+#registerbutton{
+  width: 300px;
+  padding: 5px;
+  margin-bottom:20px;
+  border-radius: 5px;
+  background-color: white;
+}
