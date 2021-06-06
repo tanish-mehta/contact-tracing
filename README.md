@@ -1,7 +1,7 @@
 # contact-tracing
 Coursework for Web Development. A contact tracing website for COVID-19. 89/95
 
-Users can register, login and logout.
+Users can register, login and logout. <br/>
 Users can add visits to the system by clicking on the location on the map, and the start and end time of their visit.
 Overview of all the users visits is provided. Visits can be removed.
 If the user is infected, they can report their infection.
